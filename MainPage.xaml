@@ -75,6 +75,42 @@
                     Style="{StaticResource BotaoEscuro}"
                     x:Name="num5" Text="5" 
                     Clicked="num5_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="2"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="num6" Text="6" 
+                    Clicked="num6_Clicked"/>
+            <Button Grid.Row="3" Grid.Column="3"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="subtracao" Text="-" 
+                    Clicked="subtracao_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="0"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="num1" Text="1" 
+                    Clicked="num1_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="1"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="num2" Text="2" 
+                    Clicked="num2_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="2"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="num3" Text="3" 
+                    Clicked="num3_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="3"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="adicao" Text="+" 
+                    Clicked="adicao_Clicked"/>
+            <Button Grid.Row="5" Grid.Column="0"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="num0" Text="0" 
+                    Clicked="num0_Clicked"/>
+            <Button Grid.Row="5" Grid.Column="1"
+                    Style="{StaticResource BotaoEscuro}"
+                    x:Name="virgula" Text="," 
+                    Clicked="virgula_Clicked"/>
+            <Button Grid.Row="5" Grid.Column="2"
+                    Style="{StaticResource BotaoClaro}"
+                    x:Name="resultado" Text="=" 
+                    Clicked="resultado_Clicked"/>
         </Grid>
     </ContentPage.Content>
 
